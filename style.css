@@ -1,0 +1,43 @@
+*
+{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.font::after {
+content: "*";
+color: red;
+}
+
+.checked {
+color: orange;
+}
+
+td {
+width: 130px;
+padding: 5px;
+}
+.float2
+{
+margin-left: 300px;
+
+}
+#email::placeholder
+{
+width: 300px;
+}
+.child
+{
+opacity: 0.5;
+}
+
+tr:nth-child(odd)
+{
+    background-color:#D6EEEE;
+}
+.font
+{
+    font-weight: bold;
+}

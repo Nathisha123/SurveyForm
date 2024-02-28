@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            
+            <div class="row">
+                <label for="exampleFormControlInput1" class="font">Name</label>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+    
+          
+          <span class="child float1">First</span>
+          <span class="child float2">Last</span>
+         
+
+          <div class="col-md-6">
+            <label for="exampleFormControlInput1" class="font">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+    
+        </br>
+
+          <h6 class="font">Your Experience</h6>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+
+    </br>
+          <p>Overall, how would you rate your experience with us?</p>
+    
+          <h6 class="font">How satisfied are you with</h6>
+    
+          <table class="table1">
+            <tr>
+              <td></td>
+              <td>Very Unsatisfied</td>
+              <td>Unsatisfied</td>
+              <td>Neutral</td>
+              <td>Satisfied</td>
+              <td>Very satisfied</td>
+            </tr>
+            <tr>
+              <td>Purchase</td>
+              <td><input type="radio" id="vus" name="pur" value="vus" /></td>
+              <td><input type="radio" id="us" name="pur" value="us" /></td>
+              <td><input type="radio" id="n" name="pur" value="n" /></td>
+              <td><input type="radio" id="s" name="pur" value="s" /></td>
+              <td><input type="radio" id="vs" name="pur" value="vs" /></td>
+            </tr>
+            <tr>
+              <td>Service</td>
+              <td><input type="radio" id="vus" name="ser" value="vus" /></td>
+              <td><input type="radio" id="us" name="ser" value="us" /></td>
+              <td><input type="radio" id="n" name="ser" value="n" /></td>
+              <td><input type="radio" id="s" name="ser" value="s" /></td>
+              <td><input type="radio" id="vs" name="ser" value="vs" /></td>
+            </tr>
+            <tr>
+              <td>Company Overall</td>
+              <td><input type="radio" id="vus" name="comp" value="vus" /></td>
+              <td><input type="radio" id="us" name="comp" value="us" /></td>
+              <td><input type="radio" id="n" name="comp" value="n" /></td>
+              <td><input type="radio" id="s" name="comp" value="s" /></td>
+              <td><input type="radio" id="vs" name="comp" value="vs" /></td>
+            </tr>
+          </table>
+          <br>
+    
+          <h6 class="font">How likely are you to</h6>
+          <table class="table2">
+            <tr>
+              <td></td>
+              <td>Very Unsatisfied</td>
+              <td>Unsatisfied</td>
+              <td>Neutral</td>
+              <td>Satisfied</td>
+              <td>Very satisfied</td>
+            </tr>
+            <tr>
+              <td>Buy from us again</td>
+              <td><input type="radio" id="vul" name="buy" value="vul" /></td>
+              <td><input type="radio" id="ul" name="buy" value="ul" /></td>
+              <td><input type="radio" id="ne" name="buy" value="ne" /></td>
+              <td><input type="radio" id="l" name="buy" value="l" /></td>
+              <td><input type="radio" id="vl" name="buy" value="vl" /></td>
+            </tr>
+            <tr>
+              <td>Recommend our product to others</td>
+              <td><input type="radio" id="vul" name="pro" value="vul" /></td>
+              <td><input type="radio" id="ul" name="pro" value="ul" /></td>
+              <td><input type="radio" id="ne" name="pro" value="ne" /></td>
+              <td><input type="radio" id="l" name="pro" value="l" /></td>
+              <td><input type="radio" id="vl" name="pro" value="vl" /></td>
+            </tr>
+            <tr>
+              <td>Recommend our company to others</td>
+              <td><input type="radio" id="vul" name="cmpy" value="vul" /></td>
+              <td><input type="radio" id="ul" name="cmpy" value="ul" /></td>
+              <td><input type="radio" id="ne" name="cmpy" value="ne" /></td>
+              <td><input type="radio" id="l" name="cmpy" value="l" /></td>
+              <td><input type="radio" id="vl" name="cmpy" value="vl" /></td>
+            </tr>
+          </table>
+    
+          <h6 class="font">Additonal comments or suggestions</h6>
+          <textarea
+            name="sug"
+            id="text-area"
+            style="width: 900px; height: 100px"
+          ></textarea>
+          <br />
+          <input type="submit" value="submit" style="width: 120px" />
+        </form>
+        </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
